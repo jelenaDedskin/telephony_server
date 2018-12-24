@@ -1,0 +1,5 @@
+{
+  "name": "Telephony Server",
+  "version": "0.1.0",
+  "description": "A basic server to report IB call data"
+}
