@@ -4,11 +4,14 @@
   "description": "Report events of phone calls",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "apidoc": "apidoc -i ib_server/ -o apidoc/"
   },
   "author": "Jelena",
   "license": "ISC",
   "dependencies": {
+    "apidoc": "^0.17.7",
     "body-parser": "^1.18.3",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
