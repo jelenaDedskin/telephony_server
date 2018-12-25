@@ -1,8 +1,8 @@
 const axios = require('axios');
-const stateHandler = require('../app/helpers/stateHandler');
-const responseHandler = require('../app/helpers/responseHandler');
-const processUrlHandler = require('../app/helpers/processUrlHandler');
-const db = require('../app/db');
+const stateHandler = require('../helpers/stateHandler');
+const responseHandler = require('../helpers/responseHandler');
+const processUrlHandler = require('../helpers/processUrlHandler');
+const db = require('../db');
 
 const notifyProcess = (callId = null) => {
   try {

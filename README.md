@@ -21,7 +21,7 @@ Telephony Server reports new calls. It depends on Process Server Url which have 
 	
     `$ npm install`
 	
- - Finally, run the IB Server
+ - Finally, run the Telephony Server
 	
     `$ npm run start`
 

@@ -2,10 +2,10 @@
   "name": "telephony_server",
   "version": "1.0.0",
   "description": "Report events of phone calls",
-  "main": "main.js",
+  "main": "./app/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js",
+    "start": "node ./app/main.js",
     "apidoc": "apidoc -i app/ -o docs/",
     "eslint": "./node_modules/.bin/eslint app/*"
   },
